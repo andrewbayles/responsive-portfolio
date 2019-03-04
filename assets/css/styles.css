@@ -1,0 +1,200 @@
+body {
+	background-color: #eeeeee;
+	background-image: url(../images/bg_mountains.jpg);
+	position: relative;
+}
+
+header {
+	background-color: #ffffff;
+    height: 100px;
+    margin-top: 0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 2px solid #cccccc;
+    z-index: 10000;
+}
+
+header > div {
+	height: 100%;
+	margin: 0px auto 0px auto;
+	width: 960px;
+}
+
+header div.name {
+	display: block;
+    height: 100%;
+    float: left;
+    background-color: #4aaaa5;
+    width: 240px;
+}
+
+header h1 {
+	color: #ffffff;
+    text-align: center;
+    margin-top: 35px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+    font-size: 1.6em;
+}
+
+header nav {
+	display: flex;
+    float: right;
+    height: 100px;
+    margin-bottom: 0px;
+}
+
+header ul {
+	align-self: flex-end;
+}
+
+header li {
+	display: block;
+    text-align: center;
+    border-right: 1px solid #eeeeee;
+    float: left;
+}
+
+header li.last {
+	border: 0px;
+}
+
+header li a {
+	display: inline-block;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-decoration: none;
+    color: #cccccc;
+    width: 70px;
+    padding: 10px 10px 10px 10px;
+}
+
+section.main {
+	margin-top: 160px;
+	margin-bottom: 160px;
+    width: 880px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    padding: 40px;
+}
+
+section.main h2 {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+    font-size: 1.6em;
+    margin-bottom: 30px;
+}
+
+section.main hr {
+	margin-bottom: 30px;
+}
+
+section#about-me img {
+    float: left;
+    padding: 0px 30px 0px 0px;
+    width: 240px;
+    height: 240px;
+}
+
+section#about-me p {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #cccccc;
+    padding-bottom: 20px;
+    line-height: 30px;
+}
+
+section#contact-me p {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #000000;
+    padding-bottom: 10px;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+section#contact-me input {
+	margin-bottom: 15px;
+    padding: 10px;
+    font-size: 0.8rem;
+    width: 855px;
+}
+
+section#contact-me textarea {
+	border: 1px solid #dddddd;
+    width: 857px;
+    margin-bottom: 15px;
+    height: 200px;
+    font-size: 0.8rem;
+    padding: 10px;
+}
+
+section#contact-me button {
+	color: #ffffff;
+    border: 0px;
+    padding: 10px;
+    margin: 0px;
+    display: block;
+    background-color: #4aaaa5;
+    font-size: 1rem;
+    width: 110px;
+}
+
+section#portfolio > div {
+	float: left;
+	width: 320px;
+    height: 260px;
+    padding: 20px 20px 20px 0px;
+}
+
+section#portfolio img {
+	width: 320px;
+    height: 260px;
+    position: absolute;
+}
+
+section#portfolio > div p {
+	width: 320px;
+    height: 40px;
+    margin-top: 160px;
+    font-size: 1.4rem;
+    color: #ffffff;
+    display: block;
+    background-color: #4aaaa5;
+    text-align: center;
+    padding: 25px 0px 10px 0px;
+    position: absolute;
+}
+
+footer {
+	background-color: #666666;
+    display: flex;
+    height: 100px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-top: 4px solid #4aaaa5;
+    z-index: 10000;
+}
+
+footer p {
+	margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #eeeeee;
+    align-self: flex-end;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
